@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct UsersView: View {
+    @StateObject var userData = UserData()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                Text("Raw JSON Data:")
+                ScrollView {
+                    Text(userData.users)
+                }
+            }
+            .padding()
+            .navigationTitle("Random Users")
         }
-        .padding()
     }
 }
 

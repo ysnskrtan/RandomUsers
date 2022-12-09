@@ -7,8 +7,9 @@
 
 import Foundation
 
-class UserData {
-    var users: String = ""
+@MainActor
+class UserData: ObservableObject {
+    @Published var users: String = ""
     
     init() {
         Task {
@@ -19,6 +20,7 @@ class UserData {
     func loadUsers() async {
         do {
             let users = try await UserFetchingClient.getUsers()
+            print(users)
             self.users = users
         } catch {
             print(error)
