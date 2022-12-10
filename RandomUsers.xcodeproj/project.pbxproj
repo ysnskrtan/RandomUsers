@@ -16,6 +16,7 @@
 		C6071F532943353100A50C7A /* RandomUsersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6071F522943353100A50C7A /* RandomUsersUITestsLaunchTests.swift */; };
 		C6071F602943363800A50C7A /* UserFetchingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6071F5F2943363800A50C7A /* UserFetchingClient.swift */; };
 		C6071F622943374000A50C7A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6071F612943373F00A50C7A /* UserData.swift */; };
+		C6A7EF832944A16100C38494 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A7EF822944A16100C38494 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		C6071F522943353100A50C7A /* RandomUsersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C6071F5F2943363800A50C7A /* UserFetchingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetchingClient.swift; sourceTree = "<group>"; };
 		C6071F612943373F00A50C7A /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		C6A7EF822944A16100C38494 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C6071F372943352F00A50C7A /* UsersView.swift */,
 				C6071F5F2943363800A50C7A /* UserFetchingClient.swift */,
 				C6071F612943373F00A50C7A /* UserData.swift */,
+				C6A7EF822944A16100C38494 /* User.swift */,
 				C6071F392943353000A50C7A /* Assets.xcassets */,
 				C6071F3B2943353000A50C7A /* Preview Content */,
 			);
@@ -266,6 +269,7 @@
 				C6071F382943352F00A50C7A /* UsersView.swift in Sources */,
 				C6071F362943352F00A50C7A /* RandomUsersApp.swift in Sources */,
 				C6071F622943374000A50C7A /* UserData.swift in Sources */,
+				C6A7EF832944A16100C38494 /* User.swift in Sources */,
 				C6071F602943363800A50C7A /* UserFetchingClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
